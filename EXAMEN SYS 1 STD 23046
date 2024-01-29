@@ -1,0 +1,57 @@
+C:\Users\Maminiriana_Alain> ssh -p 19198 wealain@warchall.net
+wealain@warchall.net's password:
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.4.0 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+Last login: Tue Jan 23 11:33:06 2024 from 154.126.42.222
+wealain@warchall:~$ ls
+WELCOME.md  level  www  www_access.log  www_error.log
+wealain@warchall:~$ cd /home/level
+wealain@warchall:/home/level$ ls
+00_welcome      02  04_kwisatz  07_tropical_fruits  10_choose_your_path   12_pytong   15_live_rfi  level01    special
+01_choice_tree  03  05_privacy  08_sshz             11_choose_your_path2  14_live_fi  20_live_rce  matrixman
+
+level 00_ welcome
+
+  Premierement je tap le command ls, je vu README.md , le command cat pour ouvri le dossie 
+  mot de passe "bitwarrior"
+
+level 01_choice_tree
+
+level$ cd 02
+  comme dabitute je fair "ls" il à document photos 
+  Apres le faire le "find -readable.
+.
+./.porb
+./.porb/.solution
+./documents
+./documents/letter.txt
+./photos
+./photos/thumbnails
+ le chemain ./.porb/.solution
+ le mot de passe est "HiddenIsConfig".
+
+ level 03
+comme dab "ls" il a pas "find -readable
+
+.
+./.bash_history
+./.local
+find: './.local/share': Permission denied
+ je faire le commande cat .bash_history
+ le solution est SSH3 "RepeatingHistory".
+ 
+ level 04
+  premierement command ls READMEN.txt READMRN2.txt
+  chmod +r READMEN2.txt
+  car READMEN2.txt
+  le solution est "AndOfCourseIDoKnowChown"
+
+ level 05_privacy/
+  
+ command ls : README.md
+ cat README.md
+ le solution "OKPRIVATE"
+ 
